@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#neural-network {
+  padding: 20px;
+}
+
+.canvas {
+  border: 1px solid #000;
+}
+
+.canvas-image {
+  display: none;
+}
+
+.canvas-result {
+  margin: 0 0 0 20px;
+  border: 1px solid #000;
+}
+
+.canvas-actions {
+  margin: 20px 0 0 0;
+
+  button {
+    margin-right: 20px;
+    width: 80px;
+    height: 32px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.result {
+  margin: 0 0 0 20px;
+}
